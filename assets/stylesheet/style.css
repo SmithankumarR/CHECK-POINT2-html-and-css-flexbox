@@ -152,6 +152,7 @@ h1 {
   font-weight: 900;
 }
 h2 {
+
   font-size: 32px;
   text-transform: uppercase;
   font-weight: 500;
@@ -227,13 +228,19 @@ a {
   padding: 14px 32px;
   border: 0;
   outline: 0;
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: 600;
   border-radius: 6px;
 }
 .btn-primary {
   background-color: rgb(234, 81, 62);
+  color: white;
+}
+.btn-secondary {
+  border: 2px solid white;
+}
+.btn a{
   color: white;
 }
 .circle {
@@ -260,6 +267,7 @@ a {
 }
 .icons {
   width: 100%;
+
 }
 .icons i {
   background-color: white;
@@ -270,6 +278,18 @@ a {
   border-radius: 50%;
   line-height: 50px;
   margin: 40px 15px;
+}
+.icons2 i{
+  background-color: #ea513e;
+  color: white;
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 50px;
+  margin: 40px 15px 40px 0px;
 }
 /* navigation item */
 .navbar-item {
@@ -304,31 +324,34 @@ a {
   margin: 30px 0;
 }
 /*Services*/
+.services{
+  width: 100%;
+}
 .services img {
   width: 20%;
 }
 .services .serv1 {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   background-color: #5cbd9d;
-  line-height: 250px;
+  line-height: 300px;
 }
 .services .serv2 {
-  width: 250px;
-  height: 250px;
-  line-height: 250px;
+  width: 300px;
+  height: 300px;
+  line-height: 300px;
   background-color: #e67f31;
 }
 .services .serv3 {
-  width: 250px;
-  height: 250px;
-  line-height: 250px;
+  width: 300px;
+  height: 300px;
+  line-height: 300px;
   background-color: #3998db;
 }
 .services .serv4 {
-  width: 250px;
-  height: 250px;
-  line-height: 250px;
+  width: 300px;
+  height: 300px;
+  line-height: 300px;
   background-color: #68cd73;
 }
 /*Portfolio*/
@@ -419,16 +442,16 @@ address a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 120px;
-  background-color: white;
-  height: 30px;
+  width: 160px;
+  height: 50px;
   box-shadow: none;
   color: white;
   background-color: #ea513e;
   position: fixed;
   border: none;
-  right: 32px;
-  bottom: 32px;
+  right: 287px;
+  font-weight: 600;
+  bottom: 82px;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -444,7 +467,6 @@ aside {
   flex-direction: column;
   justify-content: space-between;
   position: fixed;
-  flex: 0 1 850px;
   text-align: left;
 }
 .asidediv {
@@ -458,24 +480,13 @@ aside {
   align-items: center;
 }
 .logo {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height:80px;
 }
-.homebtn {
-  background-color: #ea513e;
-  box-shadow: none;
-  border: 1px solid white;
-  border-radius: 8px;
-  width: 70px;
-  height: 30px;
-}
-.homebtn a {
+.brand-1{
+  font-size: 34px;
   color: white;
-  text-decoration: none;
-}
-span img {
-  padding-top: 20px;
-  width: 10%;
+  margin-left: 20px;
 }
 .mainsection {
   padding-left: 350px;
@@ -483,21 +494,23 @@ span img {
   top: 0;
   display: flex;
   flex-direction: row;
-  flex: 0 1 850px;
 }
 .galleryimg {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 16px;
 }
 .galleryimg img {
   width: 100%;
+  height: 100%;
   border: 1px solid black;
   margin: 20px 0;
+  border-radius: 6px;
   object-fit: cover;
 }
 .gallerytxt {
   margin-left: 410px;
+  font-size: 42px;
 }
 .gallerynav {
   display: flex;
@@ -505,15 +518,4 @@ span img {
 .gallerynav a {
   text-decoration: none;
   color: black;
-}
-.sites {
-  width: 20px;
-  height: 20px;
-  border: 1px solid black;
-  border-radius: 50%;
-  text-align: center;
-  vertical-align: middle;
-  padding: 8px;
-  margin-top: 10px;
-  background-color: #ea513e;
 }
